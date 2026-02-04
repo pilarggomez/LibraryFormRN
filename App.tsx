@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, View, Text } from "react-native";
 import SimpleReport from "./src/components/SimpleReport";
 import FullReport from "./src/components/FullReport";
+import LogoReportUrl from "./src/components/LogoReportURL";
 
 export default function App() {
   return (
@@ -13,6 +14,10 @@ export default function App() {
       <View style={{ height: 12 }} />
 
       <FullReport />
+
+            <View style={{ height: 12 }} />
+
+      <LogoReportUrl />
     </View>
   );
 }
